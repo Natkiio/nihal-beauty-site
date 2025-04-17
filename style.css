@@ -1,0 +1,217 @@
+/*page1*/
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar h5 {
+  font-family: 'Devonshire';
+  font-size: 20px;
+  color: rgb(146, 127, 84);
+  text-align: center;
+}
+
+.carousel-inner img{
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
+.footer {
+  background-color: #efe6eb;
+  padding: 25px;
+}
+
+.footer li {
+  display: inline;
+  color: #efe6eb;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* page2, PRICELIST*/
+
+.price {
+ 
+  text-align: center;
+}
+
+/* page 3, Game*/
+
+/*https://pixabay.com/photos/dice-macro-game-games-roll-die-4249163/*/
+.game{
+  background-image: url("../images/dice1.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color:black;
+}
+
+
+/* page 4, GALLERY*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.gallery {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.galleryColumn {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.galleryColumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .galleryColumn {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .galleryColumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+/* page 5, booking*/
+.booking{
+  background-image: url("../images/background.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-attachment:fixed;
+  align-content: center;
+}
+
+.booking-container {
+  background: white;
+  text-align: center;
+  align-content: center;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #d81b60;
+  
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  ;
+}
+
+button {
+  margin-top: 1.5rem;
+
+  padding: 0.75rem;
+  background:#cb7b7d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background: #cb7b7d;
+}
+
+.hidden {
+  display: none;
+}
+
+#confirmation {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+
+/* page6,contact*/
+.contact{
+  text-align: center;
+  background-attachment:fixed;
+  align-content: center;
+  background: white;
+  align-items: center;
+}
+.contactForm{
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+div.mycontainer {
+width:100%;
+overflow:auto;
+}
+div.mycontainer div {
+
+text-align: center;
+align-content: center;
+width:33%;  
+float:left;
+}
