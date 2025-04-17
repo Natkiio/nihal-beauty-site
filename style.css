@@ -57,14 +57,19 @@
 .dice-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem auto;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .dice-container div {
   text-align: center;
+}
+
+.dice-container img {
+  max-width: 150px;
+  height: auto;
 }
 
 
