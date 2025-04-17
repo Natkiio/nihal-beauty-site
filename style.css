@@ -53,6 +53,19 @@
   text-align: center;
   color:black;
 }
+/* added this to center the dice game - nathan */ 
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+}
+
+.dice-container div {
+  text-align: center;
+}
 
 
 /* page 4, GALLERY*/
